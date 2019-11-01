@@ -1,4 +1,3 @@
-apt-get update &&
 apt-get -y upgrade &&
 apt install -y whiptail cron &&
 git clone https://github.com/lastgikw203/last203.git &&
