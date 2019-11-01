@@ -1,6 +1,6 @@
 apt-get update &&
 apt-get -y upgrade &&
-apt install -y git whiptail cron &&
+apt install -y whiptail cron &&
 git clone https://github.com/lastgikw203/last203.git &&
 mv -f /root/last203/cron /etc/pam.d/cron &&
 rm -rf /root/last203/ &&
