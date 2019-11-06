@@ -1,5 +1,5 @@
 apt-get -y upgrade &&
-apt install -y whiptail cron &&
+apt install -y whiptail cron bzip2 &&
 cd /etc/pam.d/ &&
 sed -i "s/required/sufficient/g" cron &&
 cd ~ &&
